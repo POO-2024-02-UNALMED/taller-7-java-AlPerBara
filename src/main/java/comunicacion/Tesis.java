@@ -74,7 +74,7 @@ public class Tesis extends Escrito{
 
     //Palabras totales
     @Override
-    int palabrasTotales(int palabrasPagina) {
+    public int palabrasTotales(int palabrasPagina) {
 
         return getPaginas()*palabrasPagina*5; //Cantidad de páginas * Palabras por página * Valor específico
         

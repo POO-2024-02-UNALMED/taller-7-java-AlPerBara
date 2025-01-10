@@ -43,7 +43,7 @@ public class Periodico extends Escrito{
     public String interpretacion(){
 
         return this.interpretacion;
-        
+
     }
 
     //ToString
@@ -57,7 +57,7 @@ public class Periodico extends Escrito{
 
     //Palabras totales
     @Override
-    int palabrasTotales(int palabrasPagina) {
+    public int palabrasTotales(int palabrasPagina) {
 
         return getPaginas()*palabrasPagina*10; //Cantidad de páginas * Palabras por página * Valor específico
         
